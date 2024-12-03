@@ -1,0 +1,34 @@
+Primary Health Care Nurse --Performs--> Initial Health Assessment
+Primary Health Care Nurse --Conducts--> General Medical Conditions Screening
+Primary Health Care Nurse --Makes--> Referral to Physicians
+Primary Health Care Nurse --Updates--> Medical Files
+Primary Health Care Nurse --Administers--> Screening Tools
+Psychologist --Conducts--> Psychiatric Evaluation
+Psychologist --Diagnoses--> Mental Disorders
+Psychologist --Updates--> Medical Files
+Psychologist --Recommends--> Treatment Plans
+Physician --Treats--> Physical Health Conditions
+Physician --Manages--> Substance Withdrawal
+Physician --Provides--> Psychotropic Medications
+Physician --Updates--> Medical Files
+Physician --Performs--> Health Check
+Physician --Monitors--> Medication Adherence 
+Physician --Assesses--> Therapy Effectiveness 
+Physician --Re-Assesses--> Health Risks 
+Physician --Updates--> Medical Files
+Administrative Staff --Provides--> Health Reports 
+Administrative Staff --Develops--> Discharge Plan
+Administrative Staff --Creates--> Transfer Plan
+Administrative Staff --Handles--> Patient Discharge
+Administrative Staff --Coordinates--> Patient Transfer
+Administrative Staff --Updates--> Medical Files
+ED Staff --Generates--> Admission Prediction
+ED Staff --Communicates--> Patient Disposition
+ED Staff --Updates--> Medical Files
+Bed manager --Requests--> Bed
+Bed manager --Allocates--> Bed
+Bed manager --Prepares--> Bed
+Bed manager --Updates--> Medical Files
+Inpatient Unit Team --Transfers--> Patient
+Inpatient Unit Team --Assigns--> Bed
+Inpatient Unit Team --Updates--> Medical Files

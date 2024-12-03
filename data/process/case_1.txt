@@ -1,0 +1,9 @@
+Nurse Bob Performs Initial Health Assessment 
+Nurse Bob Conducts General Medical Conditions Screening 
+Nurse Bob Updates Medical Files 
+Psychologist Alex Conducts Psychiatric Evaluation 
+Psychologist Alex Updates Medical Files 
+Administrative Staff Ava Provides Health Reports 
+Administrative Staff Ava Develops Discharge Plan 
+Administrative Staff Ava Handles Patient Discharge 
+Administrative Staff Ava Updates Medical Files

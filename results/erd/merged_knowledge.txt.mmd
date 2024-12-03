@@ -1,0 +1,69 @@
+graph TD
+    %% Styles
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+
+    Administrative_Staff["Administrative Staff"]
+    Admission_Prediction["Admission Prediction"]
+    Bed["Bed"]
+    Bed_manager["Bed manager"]
+    Discharge_Plan["Discharge Plan"]
+    ED_Staff["ED Staff"]
+    General_Medical_Conditions_Screening["General Medical Conditions Screening"]
+    Health_Check["Health Check"]
+    Health_Reports["Health Reports"]
+    Health_Risks["Health Risks"]
+    Initial_Health_Assessment["Initial Health Assessment"]
+    Inpatient_Unit_Team["Inpatient Unit Team"]
+    Medical_Files["Medical Files"]
+    Medication_Adherence["Medication Adherence"]
+    Mental_Disorders["Mental Disorders"]
+    Patient["Patient"]
+    Patient_Discharge["Patient Discharge"]
+    Patient_Disposition["Patient Disposition"]
+    Patient_Transfer["Patient Transfer"]
+    Physical_Health_Conditions["Physical Health Conditions"]
+    Physician["Physician"]
+    Primary_Health_Care_Nurse["Primary Health Care Nurse"]
+    Psychiatric_Evaluation["Psychiatric Evaluation"]
+    Psychologist["Psychologist"]
+    Psychotropic_Medications["Psychotropic Medications"]
+    Referral_to_Physicians["Referral to Physicians"]
+    Screening_Tools["Screening Tools"]
+    Substance_Withdrawal["Substance Withdrawal"]
+    Therapy_Effectiveness["Therapy Effectiveness"]
+    Transfer_Plan["Transfer Plan"]
+    Treatment_Plans["Treatment Plans"]
+
+    Administrative_Staff -->|Coordinates| Patient_Transfer
+    Administrative_Staff -->|Creates| Transfer_Plan
+    Administrative_Staff -->|Develops| Discharge_Plan
+    Administrative_Staff -->|Handles| Patient_Discharge
+    Administrative_Staff -->|Provides| Health_Reports
+    Administrative_Staff -->|Updates| Medical_Files
+    Bed_manager -->|Allocates| Bed
+    Bed_manager -->|Prepares| Bed
+    Bed_manager -->|Requests| Bed
+    Bed_manager -->|Updates| Medical_Files
+    ED_Staff -->|Communicates| Patient_Disposition
+    ED_Staff -->|Generates| Admission_Prediction
+    ED_Staff -->|Updates| Medical_Files
+    Inpatient_Unit_Team -->|Assigns| Bed
+    Inpatient_Unit_Team -->|Transfers| Patient
+    Inpatient_Unit_Team -->|Updates| Medical_Files
+    Physician -->|Assesses| Therapy_Effectiveness
+    Physician -->|Manages| Substance_Withdrawal
+    Physician -->|Monitors| Medication_Adherence
+    Physician -->|Performs| Health_Check
+    Physician -->|Provides| Psychotropic_Medications
+    Physician -->|Re-Assesses| Health_Risks
+    Physician -->|Treats| Physical_Health_Conditions
+    Physician -->|Updates| Medical_Files
+    Primary_Health_Care_Nurse -->|Administers| Screening_Tools
+    Primary_Health_Care_Nurse -->|Conducts| General_Medical_Conditions_Screening
+    Primary_Health_Care_Nurse -->|Makes| Referral_to_Physicians
+    Primary_Health_Care_Nurse -->|Performs| Initial_Health_Assessment
+    Primary_Health_Care_Nurse -->|Updates| Medical_Files
+    Psychologist -->|Conducts| Psychiatric_Evaluation
+    Psychologist -->|Diagnoses| Mental_Disorders
+    Psychologist -->|Recommends| Treatment_Plans
+    Psychologist -->|Updates| Medical_Files

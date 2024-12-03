@@ -1,0 +1,35 @@
+Domain,Entity A,Relationship,Entity B
+Psychiatric Evaluation Management,Psychologist,Conducts,Psychiatric Evaluation
+Psychiatric Evaluation Management,Psychologist,Diagnoses,Mental Disorders
+Psychiatric Evaluation Management,Psychologist,Recommends,Treatment Plans
+Psychiatric Evaluation Management,Physician,Monitors,Medication Adherence 
+Medical Files' Management,Primary Health Care Nurse,Updates,Medical Files
+Medical Files' Management,Psychologist,Updates,Medical Files
+Medical Files' Management,Physician,Updates,Medical Files
+Medical Files' Management,Physician,Updates,Medical Files
+Medical Files' Management,Administrative Staff,Updates,Medical Files
+Medical Files' Management,ED Staff,Updates,Medical Files
+Medical Files' Management,Bed manager,Updates,Medical Files
+Medical Files' Management,Inpatient Unit Team,Updates,Medical Files
+Discharge Plan Management,Administrative Staff,Develops,Discharge Plan
+Discharge Plan Management,Administrative Staff,Creates,Transfer Plan
+Discharge Plan Management,Administrative Staff,Handles,Patient Discharge
+Discharge Plan Management,Administrative Staff,Coordinates,Patient Transfer
+Discharge Plan Management,ED Staff,Generates,Admission Prediction
+Discharge Plan Management,ED Staff,Communicates,Patient Disposition
+Discharge Plan Management,Inpatient Unit Team,Transfers,Patient
+Initial Health Assessment Management,Primary Health Care Nurse,Performs,Initial Health Assessment
+Initial Health Assessment Management,Primary Health Care Nurse,Conducts,General Medical Conditions Screening
+Initial Health Assessment Management,Primary Health Care Nurse,Makes,Referral to Physicians
+Initial Health Assessment Management,Primary Health Care Nurse,Administers,Screening Tools
+Initial Health Assessment Management,Physician,Treats,Physical Health Conditions
+Initial Health Assessment Management,Physician,Manages,Substance Withdrawal
+Initial Health Assessment Management,Physician,Provides,Psychotropic Medications
+Initial Health Assessment Management,Physician,Performs,Health Check
+Initial Health Assessment Management,Physician,Assesses,Therapy Effectiveness 
+Initial Health Assessment Management,Physician,Re-Assesses,Health Risks 
+Initial Health Assessment Management,Administrative Staff,Provides,Health Reports 
+Bed Management,Bed manager,Requests,Bed
+Bed Management,Bed manager,Allocates,Bed
+Bed Management,Bed manager,Prepares,Bed
+Bed Management,Inpatient Unit Team,Assigns,Bed

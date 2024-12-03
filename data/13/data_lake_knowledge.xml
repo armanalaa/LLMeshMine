@@ -1,0 +1,121 @@
+<sources>
+    <source>
+        <stable_attributes>
+            <Source_Name>Admission Process Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, DICOM, image files)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM</File_Type>
+            <Data_Owner>Medical Team</Data_Owner>
+            <Data_Source_Format>Reports, Medical Records, Excel Sheets</Data_Source_Format>
+            <Data_Classification>Confidential Health Data</Data_Classification>
+            <Data_Integration>Linked to EHR (Electronic Health Records) systems</Data_Integration>
+            <Keywords>Admission, Health Assessment, Primary Care, Medical Screening, Patient Data</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/admission/</Data_Lake_Path>
+            <Update_Frequency>Daily</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted access to medical staff and authorized personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <source>
+        <stable_attributes>
+            <Source_Name>Health Screening Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, XLSX, CSV, JPG)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, CSV, JPG</File_Type>
+            <Data_Owner>Screening Team</Data_Owner>
+            <Data_Source_Format>Screening Reports, Medical Data</Data_Source_Format>
+            <Data_Classification>Confidential Health Screening Data</Data_Classification>
+            <Data_Integration>Linked to health assessment systems and screening tools</Data_Integration>
+            <Keywords>Screening, Health Assessment, Substance Abuse, Mental Health, Patient Risk</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/screening/</Data_Lake_Path>
+            <Update_Frequency>Weekly</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted to healthcare providers, psychologists, and authorized users</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <source>
+        <stable_attributes>
+            <Source_Name>Psychiatric Evaluation Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, DICOM, HL7, TXT</File_Type>
+            <Data_Owner>Psychiatry Team</Data_Owner>
+            <Data_Source_Format>Psychiatric Reports, Diagnosis Files</Data_Source_Format>
+            <Data_Classification>Confidential Mental Health Data</Data_Classification>
+            <Data_Integration>Integrated with psychiatric and health information systems</Data_Integration>
+            <Keywords>Psychiatry, Mental Health, Diagnosis, Psychological Assessment, Treatment Plan</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/psychiatric/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>Very High</Data_Sensitivity>
+            <Retention_Policy>7 years</Retention_Policy>
+            <Access_Control>Strictly controlled, accessible only to mental health professionals</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <source>
+        <stable_attributes>
+            <Source_Name>Medical Treatment Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, XLSX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM, HL7</File_Type>
+            <Data_Owner>Physicians and Nursing Staff</Data_Owner>
+            <Data_Source_Format>Medical Treatment Records, Prescriptions, Reports</Data_Source_Format>
+            <Data_Classification>Confidential Health Treatment Data</Data_Classification>
+            <Data_Integration>Integrated with Electronic Health Records (EHR)</Data_Integration>
+            <Keywords>Medical Treatment, Patient Care, Medication, Health Conditions, Nursing</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/treatment/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>Very High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Controlled access based on medical and nursing personnel roles</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <source>
+        <stable_attributes>
+            <Source_Name>Ongoing Monitoring and Follow-Up Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, XLSX, DICOM, CSV, HL7)</Source_Type>
+            <File_Type>PDF, XLSX, DICOM, CSV, HL7</File_Type>
+            <Data_Owner>Medical and Psychiatric Teams</Data_Owner>
+            <Data_Source_Format>Monitoring Reports, Session Logs, Medical Records</Data_Source_Format>
+            <Data_Classification>Confidential Health Monitoring Data</Data_Classification>
+            <Data_Integration>Integrated with EHR systems and patient tracking software</Data_Integration>
+            <Keywords>Monitoring, Follow-up, Medication Adherence, Health Check, Patient Status</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/monitoring/</Data_Lake_Path>
+            <Update_Frequency>Regular</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted to healthcare staff and authorized medical personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <source>
+        <stable_attributes>
+            <Source_Name>Discharge or Transfer Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, XLSX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM, HL7</File_Type>
+            <Data_Owner>Medical and Administrative Staff</Data_Owner>
+            <Data_Source_Format>Discharge Summaries, Transfer Reports, Patient Records</Data_Source_Format>
+            <Data_Classification>Confidential Health Discharge Data</Data_Classification>
+            <Data_Integration>Integrated with transfer systems, healthcare providers, and EHRs</Data_Integration>
+            <Keywords>Discharge, Transfer, Care Summary, Patient Report, Follow-up Plan</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/discharge/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted access to medical and administrative personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+</sources>
