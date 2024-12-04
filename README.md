@@ -37,6 +37,11 @@ LLMeshMine is a framework designed to enable inter-process behavioral analytics 
 
 ---
 
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
 ## Usage Instructions
 
 1. Clone the repository:
@@ -45,9 +50,61 @@ LLMeshMine is a framework designed to enable inter-process behavioral analytics 
    cd LLMeshMine
 
 
-# Installation Guide
 
-## Install Dependencies
+
+
+## Running Scripts
+
+## Generate Data Domains
 
 ```bash
-pip install -r requirements.txt
+python scripts/domain.py
+
+
+## Extract Entity Relationships
+
+```bash
+python scripts/entity_relationships.py
+
+
+## Generate ERD
+
+```bash
+python scripts/erd.py
+
+
+
+## Key Features
+
+- **Domain-Based Process Analytics**: Leverages Data Mesh architecture for granular process analytics.
+- **LLM Integration**: Enhances data extraction and processing with Large Language Models.
+- **Visualizations**: Generates comprehensive diagrams and graphs for domain insights.
+- **Customizable Framework**: Easily adaptable for different domains and datasets.
+
+Dependencies
+
+Python 3.8+
+Required Libraries: Listed in requirements.txt
+
+Troubleshooting
+
+- **Missing Dependencies**: Ensure pip install -r requirements.txt is executed before running scripts
+- **Permission Errors**: Verify read/write permissions for all input/output directories
+- **File Not Found**: Ensure data files are correctly placed in the data/ directory
+
+## Contact
+
+For questions, feedback, or contributions, feel free to contact:
+
+Name: Ala Arman
+Email: ala.arman@gmail.com
+GitHub Profile: [Arman Alaa](https://github.com/armanalaa)
+
+
+
+
+
+
+
+
+
