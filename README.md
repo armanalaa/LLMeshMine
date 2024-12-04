@@ -13,46 +13,41 @@ LLMeshMine is a framework designed to enable inter-process behavioral analytics 
 
 ---
 
-# LLMeshMine Directory Structure
 
-## Data
-### knowledge/
-- Domain-specific knowledge resources
-- Contains merged.xml
+---
 
-### process/ 
-- Sample process-related raw data
-- Contains case_1.txt
+## Repository Contents
 
-### workflow/
-- Workflow-related resources  
-- Contains merged.docx
+### `data/`
+- **`knowledge/merged.xml`**: Contains merged domain-specific knowledge for model training.
+- **`process/case_1.txt`**: Sample process data for testing and analytics.
+- **`workflow/merged.docx`**: Workflow resources for conceptual modeling.
 
-## Results
-### datamesh/
-- Output files related to data mesh generation
-- Contains domains.csv
+### `results/`
+- **`datamesh/domains.csv`**: Data domains identified by the framework.
+- **`entity_relationship/merged_knowledge.csv`**: Entity relationships extracted during analysis.
+- **`erd/erd.png`**: Visualization of the Entity-Relationship Diagram.
 
-### entity_relationship/
-- Extracted entity-relationship data
-- Contains CSV and TXT files
+### `scripts/`
+- **`domain.py`**: Automates the identification of data domains within the Data Mesh.
+- **`entity_relationships.py`**: Extracts relationships among entities from input data.
+- **`erd.py`**: Generates Entity-Relationship Diagrams for visual analysis.
+- **`graph_domain.py`**: Constructs domain graphs from data.
+- **`process_mapping.py`**: Maps processes to corresponding data domains.
 
-### erd/
-- Entity-Relationship Diagram outputs
-- Contains erd.png
+---
 
-## Scripts
-### domain.py
-- Script for data domain identification
+## Usage Instructions
 
-### entity_relationships.py
-- Script to process entity relationships
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/armanalaa/LLMeshMine.git
+   cd LLMeshMine
 
-### erd.py
-- Script for generating entity-relationship diagrams
 
-### graph_domain.py
-- Script for domain graph construction
+# Installation Guide
 
-### process_mapping.py
-- Script for process-to-domain mapping
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
