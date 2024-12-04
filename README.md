@@ -76,7 +76,7 @@ python scripts/erd.py
 - **Customizable Framework**: Easily adaptable for different domains and datasets.
 
 ---
-Dependencies
+## Dependencies
 
 Python 3.8+
 Required Libraries: Listed in requirements.txt
