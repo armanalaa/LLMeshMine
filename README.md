@@ -1,107 +1,42 @@
 # LLMeshMine: LLM-Based Data Mesh Framework for Inter-process Behavioral Analytics
 
-## Project Background
-LLMeshMine is a framework designed to enable inter-process behavioral analytics by leveraging Large Language Models (LLMs) and Data Mesh architectures. The project demonstrates how domain-based process analytics can be achieved through effective process-to-domain mapping, improving insights, resource allocation, and accuracy in complex environments such as healthcare systems.
+## Project Overview
+LLMeshMine is a cutting-edge framework designed to enable inter-process behavioral analytics by utilizing the power of Large Language Models (LLMs) and Data Mesh architectures. By focusing on process-to-domain mapping, this project delivers advanced insights, optimized resource allocation, and increased accuracy, making it ideal for complex environments such as healthcare and beyond.
 
 ---
 
-## Use Cases
-1. **Smart Healthcare**: Analyze and optimize workflows in organizations (e.g., hospitals).
-2. **Behavioral Analytics**: Predict and improve user behaviors across interconnected systems.
-3. **Data Governance**: Provide domain-specific insights using decentralized data management.
-4. **Process Mining**: Facilitate inter-process analytics using data lakes transformed into data meshes.
+## Key Use Cases
+1. **Smart Healthcare**: Analyze and optimize workflows in organizations, such as hospitals and clinics.
+2. **Behavioral Analytics**: Predict and enhance user behaviors across interconnected systems.
+3. **Data Governance**: Leverage decentralized data management for domain-specific insights.
+4. **Process Mining**: Facilitate advanced inter-process analytics by transforming data lakes into data meshes.
 
 ---
 
-## Repository Contents
+## Repository Structure
 
 ### `data/`
-- **`knowledge/merged.xml`**: Contains merged domain-specific knowledge for model training.
-- **`process/case_1.txt`**: Sample process data for testing and analytics.
-- **`workflow/merged.docx`**: Workflow resources for conceptual modeling.
+- **`knowledge/merged.xml`**: Domain-specific knowledge used for model training.
+- **`process/case_1.txt`**: Example process data for analysis.
+- **`workflow/merged.docx`**: Conceptual workflow modeling resources.
 
 ### `results/`
-- **`datamesh/domains.csv`**: Data domains identified by the framework.
-- **`entity_relationship/merged_knowledge.csv`**: Entity relationships extracted during analysis.
-- **`erd/erd.png`**: Visualization of the Entity-Relationship Diagram.
+- **`datamesh/domains.csv`**: Identified data domains as part of the framework.
+- **`entity_relationship/merged_knowledge.csv`**: Extracted entity relationships.
+- **`erd/erd.png`**: Visualization of the Entity-Relationship Diagram (ERD).
 
 ### `scripts/`
 - **`domain.py`**: Automates the identification of data domains within the Data Mesh.
-- **`entity_relationships.py`**: Extracts relationships among entities from input data.
-- **`erd.py`**: Generates Entity-Relationship Diagrams for visual analysis.
-- **`graph_domain.py`**: Constructs domain graphs from data.
-- **`process_mapping.py`**: Maps processes to corresponding data domains.
+- **`entity_relationships.py`**: Processes and extracts relationships between entities.
+- **`erd.py`**: Generates Entity-Relationship Diagrams for better visualization.
+- **`graph_domain.py`**: Constructs domain graphs from input data.
+- **`process_mapping.py`**: Maps processes to their corresponding data domains.
 
 ---
 
-## Install Dependencies
+## Installation
 
+### Step 1: Clone the Repository
 ```bash
-pip install -r requirements.txt
-
----
-
-## Usage Instructions
-
-## Clone the repository:
-
-   ```bash
-   git clone https://github.com/armanalaa/LLMeshMine.git
-   cd LLMeshMine
-
-## Generate Data Domains
-
-```bash
-python scripts/domain.py
-
-
-## Extract Entity Relationships
-
-```bash
-python scripts/entity_relationships.py
-
-
-## Generate ERD
-
-```bash
-python scripts/erd.py
-
-
----
-## Key Features
-
-- **Domain-Based Process Analytics**: Leverages Data Mesh architecture for granular process analytics.
-- **LLM Integration**: Enhances data extraction and processing with Large Language Models.
-- **Visualizations**: Generates comprehensive diagrams and graphs for domain insights.
-- **Customizable Framework**: Easily adaptable for different domains and datasets.
-
----
-## Dependencies
-
-Python 3.8+
-Required Libraries: Listed in requirements.txt
-
----
-Troubleshooting
-
-- **Missing Dependencies**: Ensure pip install -r requirements.txt is executed before running scripts
-- **Permission Errors**: Verify read/write permissions for all input/output directories
-- **File Not Found**: Ensure data files are correctly placed in the data/ directory
-
----
-Contact
-
-For questions, feedback, or contributions, feel free to contact:
-
-Name: Ala Arman
-Email: ala.arman@gmail.com
-GitHub Profile: [Arman Alaa](https://github.com/armanalaa)
-
-
-
-
-
-
-
-
-
+git clone https://github.com/armanalaa/LLMeshMine.git
+cd LLMeshMine
