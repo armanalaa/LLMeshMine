@@ -13,9 +13,6 @@ LLMeshMine is a framework designed to enable inter-process behavioral analytics 
 
 ---
 
-
----
-
 ## Repository Contents
 
 ### `data/`
@@ -49,11 +46,7 @@ pip install -r requirements.txt
    git clone https://github.com/armanalaa/LLMeshMine.git
    cd LLMeshMine
 
-
-
-
-
-## Running Scripts
+## Install Dependencies
 
 ## Generate Data Domains
 
