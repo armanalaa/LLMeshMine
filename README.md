@@ -67,7 +67,7 @@ python scripts/entity_relationships.py
 python scripts/erd.py
 
 
-
+---
 ## Key Features
 
 - **Domain-Based Process Analytics**: Leverages Data Mesh architecture for granular process analytics.
@@ -75,18 +75,21 @@ python scripts/erd.py
 - **Visualizations**: Generates comprehensive diagrams and graphs for domain insights.
 - **Customizable Framework**: Easily adaptable for different domains and datasets.
 
+---
 Dependencies
 
 Python 3.8+
 Required Libraries: Listed in requirements.txt
 
+---
 Troubleshooting
 
 - **Missing Dependencies**: Ensure pip install -r requirements.txt is executed before running scripts
 - **Permission Errors**: Verify read/write permissions for all input/output directories
 - **File Not Found**: Ensure data files are correctly placed in the data/ directory
 
-## Contact
+---
+Contact
 
 For questions, feedback, or contributions, feel free to contact:
 
