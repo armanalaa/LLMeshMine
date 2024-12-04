@@ -25,41 +25,82 @@ LLMeshMine is a framework designed to enable inter-process behavioral analytics 
 - **`process_mapping.py`**: Maps processes to corresponding data domains.
 ---
 ## Install Dependencies
+
+To set up the required environment, install all dependencies using:
+
 ```bash
 pip install -r requirements.txt
+```
+
 ---
+
 ## Usage Instructions
-## Clone the repository:
-   ```bash
-   git clone https://github.com/armanalaa/LLMeshMine.git
-   cd LLMeshMine
-## Generate Data Domains
+
+### Clone the Repository
+To begin, clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/armanalaa/LLMeshMine.git
+cd LLMeshMine
+```
+
+---
+
+### Generate Data Domains
+To identify data domains from the data mesh, execute the following script:
+
 ```bash
 python scripts/domain.py
-## Extract Entity Relationships
+```
+
+---
+
+### Extract Entity Relationships
+To extract relationships among entities in the dataset, run:
+
 ```bash
 python scripts/entity_relationships.py
-## Generate ERD
+```
+
+---
+
+### Generate ERD (Entity-Relationship Diagram)
+To visualize the relationships as a diagram, execute:
+
 ```bash
 python scripts/erd.py
+```
+
 ---
+
 ## Key Features
+
 - **Domain-Based Process Analytics**: Leverages Data Mesh architecture for granular process analytics.
 - **LLM Integration**: Enhances data extraction and processing with Large Language Models.
 - **Visualizations**: Generates comprehensive diagrams and graphs for domain insights.
 - **Customizable Framework**: Easily adaptable for different domains and datasets.
+
 ---
+
 ## Dependencies
-Python 3.8+
-Required Libraries: Listed in requirements.txt
+
+- **Python Version**: 3.8+
+- **Required Libraries**: Listed in `requirements.txt`
+
 ---
-Troubleshooting
-- **Missing Dependencies**: Ensure pip install -r requirements.txt is executed before running scripts
-- **Permission Errors**: Verify read/write permissions for all input/output directories
-- **File Not Found**: Ensure data files are correctly placed in the data/ directory
+
+## Troubleshooting
+
+- **Missing Dependencies**: Ensure `pip install -r requirements.txt` is executed before running scripts.
+- **Permission Errors**: Verify read/write permissions for all input/output directories.
+- **File Not Found**: Ensure required data files are correctly placed in the `data/` directory.
+
 ---
-Contact
-For questions, feedback, or contributions, feel free to contact:
-Name: Ala Arman
-Email: ala.arman@gmail.com
-GitHub Profile: [Arman Alaa](https://github.com/armanalaa)
+
+## Contact
+
+For questions, feedback, or contributions, feel free to reach out:
+
+- **Name**: Ala Arman
+- **Email**: ala.arman@gmail.com
+- **GitHub Profile**: [Arman Alaa](https://github.com/armanalaa)
