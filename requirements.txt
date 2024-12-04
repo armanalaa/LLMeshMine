@@ -1,0 +1,24 @@
+# General dependencies
+pandas>=1.3.3
+numpy>=1.21.0
+matplotlib>=3.4.0
+networkx>=2.5
+pm4py>=2.2.24
+
+# Scikit-learn for clustering and feature extraction
+scikit-learn>=0.24.2
+
+# Text handling and processing
+textwrap
+re
+
+# OpenAI GPT API (if using ChatGPT for entity relationships)
+openai>=0.27.0
+
+# XML parsing
+xml
+
+# Other utilities
+os
+pathlib
+collections
