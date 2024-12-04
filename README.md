@@ -103,4 +103,4 @@ For questions, feedback, or contributions, feel free to reach out:
 
 - **Name**: Ala Arman
 - **Email**: ala.arman@gmail.com
-- **GitHub Profile**: [Arman Alaa](https://github.com/armanalaa)
+- **GitHub Profile**: [armanalaa](https://github.com/armanalaa)
